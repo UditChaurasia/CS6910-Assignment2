@@ -181,6 +181,6 @@ te = None
 for im, cl in zip(pics, cla):
   te = wandb.Image(im, caption = cl)
 
-wandb.log({"Grid 3 by 3": te})
+wandb.log({"Grid 10 by 3": te})
 
 
